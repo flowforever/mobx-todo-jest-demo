@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Header} from './Header';
-import {AppStore, TodoStore} from "../stores";
+import {AppStore, TodoStore} from "../../stores/index";
 
 it('render <Header/>', () => {
     const appStore = new AppStore();

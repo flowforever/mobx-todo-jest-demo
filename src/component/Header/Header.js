@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import {inject, observer} from 'mobx-react';
 import PropTypes from 'prop-types';

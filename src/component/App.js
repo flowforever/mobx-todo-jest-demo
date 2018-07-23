@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {List} from "./List";
 import {Provider} from "mobx-react";
 import * as stores from "../stores";
-import {Header} from "./Header";
+import {Header} from "./Header/Header";
 import _ from 'lodash';
 
 import 'todomvc-app-css/index.css';

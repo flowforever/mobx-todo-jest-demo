@@ -40,8 +40,12 @@ export class TodoItem extends React.Component<TodoItemProps> {
                     <label>{item.text}</label>
                     <button className="destroy"></button>
                 </div>
-                <input className="edit" style={{display: !isEditing ? 'none' : 'block'}}
-                       onBlur={this.toggleEditing} value={item.text} onChange={this.onTextChange}/>
+                <input
+                    className="edit"
+                    style={{display: !isEditing ? 'none' : 'block'}}
+                    onBlur={this.toggleEditing}
+                    value={item.text}
+                    onChange={this.onTextChange}/>
             </li>
         );
     }
